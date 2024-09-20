@@ -147,7 +147,7 @@ $$\iint\limits_{\overset{\scriptstyle 0\leq x\leq 1}{0\leq y\leq 1}}xydxdy$$
 
 $f=xy, |I_i|=\frac{1}{n^2}$
 
-$$\sigma(f,\mathbb{T},\boldsymbol{\xi})=\sum_{i=1}^n=\sum_{i=1}^n\sum_{j=1}^n\frac{i}{n}\frac{j}{n}\frac{1}{n^2}=\frac{1}{n^4}\sum_{i=1}^n i\sum_{j=1}^n j\\=\frac{(n+1)n}{2n^4}\sum^n_{i=1}i=\frac{(n+1)^2n^2}{4n^4}\xrightarrow{n\to\infty}\frac{1}{4}$$
+$$\sigma(f,\mathbb{T},\boldsymbol{\xi})=\sum_{i=1}^n\sum_{j=1}^n\frac{i}{n}\frac{j}{n}\frac{1}{n^2}=\frac{1}{n^4}\sum_{i=1}^n i\sum_{j=1}^n j\\=\frac{(n+1)n}{2n^4}\sum^n_{i=1}i=\frac{(n+1)^2n^2}{4n^4}\xrightarrow{n\to\infty}\frac{1}{4}$$
 
 **Проверка:**
 
