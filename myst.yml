@@ -8,6 +8,8 @@ project:
   # authors: []
   github: https://github.com/artoftheblue/artofcalculus-2
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  math:
+    '\d': '\text{d}'
 site:
   template: book-theme
   # options:
