@@ -126,3 +126,16 @@ $M\subseteq \bigcup_{k=1}^\infty A_k$
 
 Если выбираем конечное $N$, то $M\not\subseteq\bigcup_{k=1}^NA_k\implies M$ — не компакт
 ```
+
+```{prf:theorem} Критерий замкнутости множества в $\R^n$
+$M$ — замкнуто $\iff M$ содержит **ВСЕ** свои предельные точки.
+```
+
+```{prf:proof}
+:nonumber:
+A. Необходимость (от противного)
+
+1. Пусть $x_0$ — предел точки $M$, но $x_0\not\in M$, тогда $x_0\in \R^n$
+2. По условию $M$ замкнуто, т. е. $\R^n\setminus M$ открыто, т. е. все его точки внутренние $\implies$ для $x_0$ из п. 1 $\exists r >0, B_r(x_0)\subset \R^n\setminus M\implies \overset{\circ} B_\varepsilon(x_0)\cap M=\varnothing$, но т. к. $x_0$ предельная $\forall \varepsilon >0, \overset{\circ}B_\varepsilon(x_0)\cap M\neq\varnothing$
+3. Получили противорение $\implies M$ содержит все предельные точки
+```
