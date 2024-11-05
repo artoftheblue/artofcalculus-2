@@ -10,6 +10,13 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   math:
     '\d': '\text{d}'
+    '\T': '\mathbb{T}'
+    '\ve': '\varepsilon'
+    '\RR': '\mathbb{R}'
+    '\ZZ': '\mathbb{Z}'
+    '\TT': '\mathbb{T}'
+    '\Su': '\overline{s}'
+    '\Sl': '\underline{s}'
 site:
   template: book-theme
   # options:
